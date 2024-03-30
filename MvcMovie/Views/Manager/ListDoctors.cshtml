@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "ListDoctors";
+}
+
+<h1>List of Doctors</h1>
+
+@Html.Raw(ViewBag.DoctorList)
+
+<div id="scheduleForm" style="display: none;">
+    <form asp-controller="Manager" asp-action="CreateVisits" method="post">
+        <input type="hidden" id="doctorId" name="doctorId">
+        <input type="text" id="beginningOfShift" name="shiftBegin" placeholder="Beginning of Shift">
+        <input type="text" id="endOfShift" name="shiftEnd" placeholder="End of Shift">
+        <input type="text" id="day" name="day" placeholder="Day">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="~/js/ListDoctors.js"></script>

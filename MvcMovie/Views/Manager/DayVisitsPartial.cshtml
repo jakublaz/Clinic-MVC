@@ -1,0 +1,16 @@
+@model List<Visit>
+
+@foreach (var visit in Model)
+{
+    <div>
+        @visit.DoctorName - 
+        @if (string.IsNullOrEmpty(visit.PatientId))
+        {
+            <text>@visit.VisitDateTime.ToString("HH:mm:ss dd-MM-yyyy") - Free</text>
+        }
+        else
+        {
+            <text>@visit.VisitDateTime.ToString("HH:mm:ss dd-MM-yyyy") - Taken</text>
+        }
+    </div>
+}

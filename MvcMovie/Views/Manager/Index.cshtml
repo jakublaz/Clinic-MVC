@@ -1,0 +1,61 @@
+@model MvcMovie.Models.WeekVisits
+
+@{
+    ViewBag.Title = "Week Visits";
+}
+
+<h2 id="currentTime"></h2>
+
+<h2>Visits for the Week</h2>
+
+<table>
+    <tr>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.Partial("DayVisitsPartial", Model.MondayVisits)
+        </td>
+        <td>
+            @Html.Partial("DayVisitsPartial", Model.TuesdayVisits)
+        </td>
+        <td>
+            @Html.Partial("DayVisitsPartial", Model.WednesdayVisits)
+        </td>
+        <td>
+            @Html.Partial("DayVisitsPartial", Model.ThursdayVisits)
+        </td>
+        <td>
+            @Html.Partial("DayVisitsPartial", Model.FridayVisits)
+        </td>
+    </tr>
+</table>
+
+<a asp-controller="Manager" asp-action="CopyVisits" class="btn btn-primary">Copy Schedule Last Week</a>
+
+
+<script src="~/js/time.js"></script>
+
+
+<style>
+    /* Increase width of the container */
+    .table-container {
+        width: 800; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 120%; /* Set the table width to 100% of its container */
+    }
+
+    th, td {
+        border: none;
+        padding: 8px;
+    }
+</style>

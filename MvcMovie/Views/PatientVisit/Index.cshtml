@@ -1,0 +1,51 @@
+@model List<Visit>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visit History</title>
+</head>
+    <style>
+        /* Add CSS styles for table formatting */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<body>
+    <h2>Visit History</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Doctor</th>
+                <th>Specialty</th>
+                <th>Date</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var visit in Model)
+            {
+                <tr>
+                    <td>@visit.DoctorName</td>
+                    <td>@visit.Specjalization</td>
+                    <td>@visit.VisitDateTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@visit.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

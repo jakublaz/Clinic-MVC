@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.clinic-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+header p {
+  color: #666;
+}
+
+.specializations h2 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.specializations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.specializations li {
+  margin-bottom: 5px;
+}
+
+.auth-buttons {
+  text-align: right; /* Align to the right */
+  margin-top: 20px;
+}
+
+.auth-buttons a {
+  margin-right: 10px;
+}

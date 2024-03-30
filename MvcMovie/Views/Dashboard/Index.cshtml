@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Main Page";
+}
+<header>
+@if (User.IsInRole("Manager"))
+{
+    <h1>Welcome, manager!</h1>
+    <a asp-controller="Manager" asp-action="CreateDoctor" class="btn btn-primary">Create Doctor</a>    // nie jest gotowt
+
+    <a asp-controller="Manager" asp-action="ListDoctors" class="btn btn-primary">Create Schedule</a>
+
+    <a asp-controller="Manager" asp-action="Index" class="btn btn-primary">See Schedule</a>
+
+    <a asp-controller="Manager" asp-action="ListPatients" class="btn btn-primary">Activate Accounts</a>
+}
+
+
+@if (User.IsInRole("Patient"))
+{
+    if (User.Identity.IsAuthenticated)
+    {
+        if ((bool)ViewBag.IsActivated)
+        {
+            <h1>Welcome, patient!</h1>
+
+            <a asp-controller="PatientVisit" asp-action="Schedule" class="btn btn-primary">Schedule Visit</a>
+
+            <a asp-controller="PatientVisit" asp-action="Index" class="btn btn-primary">Visit History</a>
+
+            <a asp-controller="PatientVisit" asp-action="MyVisits" class="btn btn-primary">Go to My Visits</a>
+        }
+        else
+        {
+            <p>Your account is not activated.</p>
+            <!-- Optionally, provide instructions or a link to contact support -->
+        }
+    }
+}
+
+
+@if (User.IsInRole("Doctor"))
+{
+    <h1>Welcome, doctor!</h1>
+
+    <a asp-controller="Doctor" asp-action="MyVisitsDoctor" class="btn btn-primary">My Schedule</a>
+}
+</header>
+
+@* <script>
+    console.log(User.FindFirst("IsActivated")?.Value);
+</script> *@

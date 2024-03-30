@@ -1,0 +1,7 @@
+PYTANIA:
+
+skracanie godzin pracy
+
+brak striny historia pacjent
+
+nie możliwe stworzenie pacjenta

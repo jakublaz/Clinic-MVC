@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="clinic-container">
+    <header>
+        <h1>Create a Doctor</h1>
+    </header>
+    <form id="registerForm">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="surname" class="form-label">Surname:</label>
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Enter your surname" required>
+        </div>
+
+        <div class="mb-3">
+            <select id="specjalization" name="specjalization">
+                <option value="ENT">ENT</option>
+                <option value="home">home</option>
+                <option value="dermatologist">dermatologist</option>
+                <option value="ophthalmologist">ophthalmologist</option>
+                <option value="neurologist">neurologist</option>
+                <option value="orthopedist">orthopedist</option>
+                <option value="pediatrician">pediatrician</option>
+            </select>
+        </div>
+        
+        <div class="mb-3">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <div class="input-group">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password:</label>
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="submitRegisterForm()">Register</button>
+    </form>
+    <script src="~/js/registerDoctor.js"></script>
+</div>

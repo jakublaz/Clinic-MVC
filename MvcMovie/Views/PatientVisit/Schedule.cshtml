@@ -1,0 +1,17 @@
+@model PatientVisit
+
+<h2>Schedule Patient Visit</h2>
+
+<form asp-action="ListVisits" asp-controller="PatientVisit" method="post">
+    <label for="singleSelect">Wybierz jedną opcję:</label>
+    <select id="singleSelect" name="selection">
+        <option value="ENT">ENT</option>
+        <option value="home">home</option>
+        <option value="dermatologist">dermatologist</option>
+        <option value="ophthalmologist">ophthalmologist</option>
+        <option value="neurologist">neurologist</option>
+        <option value="orthopedist">orthopedist</option>
+        <option value="pediatrician">pediatrician</option>
+    </select>
+    <button type="submit">Submit</button>
+</form>

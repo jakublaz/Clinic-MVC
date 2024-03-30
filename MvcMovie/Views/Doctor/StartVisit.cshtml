@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Visit</title>
+</head>
+<body>
+    <h2>Start Visit</h2>
+    <p>Patient Name: @ViewBag.PatientName</p>
+    <p>Visit Date: @ViewBag.VisitDateTime.ToString("yyyy-MM-dd HH:mm:ss")</p>
+
+    <form method="post" asp-action="ProcessVisit" asp-controller="Doctor">
+        <input type="hidden" name="patientName" value="@ViewBag.PatientName" />
+        <input type="hidden" name="patientId" value="@ViewBag.PatientId" />
+        <input type="hidden" name="visitDateTime" value="@ViewBag.VisitDateTime.ToString("yyyy-MM-dd HH:mm:ss")" />
+        <label for="description">Description:</label><br />
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br />
+        <button type="submit">Finish Visit</button>
+    </form>
+</body>
+</html>

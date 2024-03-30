@@ -1,0 +1,37 @@
+@model List<Visit>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Visits</title>
+</head>
+<body>
+    <h2>List of Visits</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Visit Date Time</th>
+                <th>Doctor Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var visit in Model)
+            {
+                <tr>
+                    <td>@visit.VisitDateTime</td>
+                    <td>@visit.DoctorName</td>
+
+                    <td>
+                        <form method="post" action="ReserveVisit">
+                            <input type="hidden" name="doctorId" value="@visit.DoctorId" />
+                            <input type="hidden" name="visitDateTime" value="@visit.VisitDateTime.ToString("yyyy-MM-dd HH:mm:ss")" />
+                            <button type="submit">Reserve</button>
+                        </form>
+                </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
