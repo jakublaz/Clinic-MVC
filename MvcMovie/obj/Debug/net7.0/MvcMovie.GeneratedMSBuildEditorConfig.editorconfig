@@ -9,93 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcMovie
 build_property.RootNamespace = MvcMovie
-build_property.ProjectDir = D:\aa  studia\sem3\EGUI\23Z-EGUI-Laz-Jakub\MvcMovie\
+build_property.ProjectDir = D:\portfolio\Clinic-MVC\MvcMovie\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\aa  studia\sem3\EGUI\23Z-EGUI-Laz-Jakub\MvcMovie
+build_property.MSBuildProjectDirectory = D:\portfolio\Clinic-MVC\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Account/Login.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Account/Register.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Dashboard/Index.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Doctor/MyVisitsDoctor.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Doctor/MyVisitsDoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXE15VmlzaXRzRG9jdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Doctor/StartVisit.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Doctor/StartVisit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFN0YXJ0VmlzaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Home/Index.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Home/Privacy.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Manager/CreateDoctor.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Manager/CreateDoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGVEb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Manager/DayVisitsPartial.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Manager/DayVisitsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxEYXlWaXNpdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Manager/Index.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Manager/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Manager/ListDoctors.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Manager/ListDoctors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxMaXN0RG9jdG9ycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Manager/ListPatients.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Manager/ListPatients.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxMaXN0UGF0aWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/PatientVisit/Index.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/PatientVisit/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFZpc2l0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/PatientVisit/ListVisits.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/PatientVisit/ListVisits.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFZpc2l0XExpc3RWaXNpdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/PatientVisit/MyVisits.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/PatientVisit/MyVisits.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFZpc2l0XE15VmlzaXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/PatientVisit/Schedule.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/PatientVisit/Schedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFZpc2l0XFNjaGVkdWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Shared/Error.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/_ViewImports.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/_ViewStart.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/aa  studia/sem3/EGUI/23Z-EGUI-Laz-Jakub/MvcMovie/Views/Shared/_Layout.cshtml]
+[D:/portfolio/Clinic-MVC/MvcMovie/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0uvum7rpp4

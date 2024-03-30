@@ -2473,11 +2473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aa  studia\\sem3\\EGUI\\23Z-EGUI-Laz-Jakub\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "D:\\portfolio\\Clinic-MVC\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "D:\\aa  studia\\sem3\\EGUI\\23Z-EGUI-Laz-Jakub\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "D:\\portfolio\\Clinic-MVC\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
-      "outputPath": "D:\\aa  studia\\sem3\\EGUI\\23Z-EGUI-Laz-Jakub\\MvcMovie\\obj\\",
+      "outputPath": "D:\\portfolio\\Clinic-MVC\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2504,6 +2504,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2568,7 +2573,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

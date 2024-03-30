@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHsTyzNDCKyznLx/IeJq6u/FKmmHTPpkEnWpYR+3/joyjpBWAOwkRHJ8g2Vqy31ZMcvYaVAeio5Fi0RVgIu3dg==",
+  "dgSpecHash": "hTUvq1Hewwcpb46N+JTQKlApVrTKLnz3w3UWjk+30cRdDR9cKuFHaiD/KuD4r/37Xi6Pd7c/i2JtCkGklvTxQA==",
   "success": true,
-  "projectFilePath": "D:\\aa  studia\\sem3\\EGUI\\23Z-EGUI-Laz-Jakub\\MvcMovie\\MvcMovie.csproj",
+  "projectFilePath": "D:\\portfolio\\Clinic-MVC\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakub\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
     "C:\\Users\\jakub\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
